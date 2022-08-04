@@ -49,3 +49,10 @@ except KeyboardInterrupt:
 # hwdst мак адресс цели
 # psrc поле источника для макдресс роутер
 # verbose=False - аргумент scapy, вывод на экран действия
+# def scan(ip):
+#     scapy.arping(ip)
+#
+# scan('192.168.0.1/24')
+
+# scapy.ls(scapy.ARP()) вызывает ls функций, которые входят в scapy.ARP(). pdst взята из scapy.ARP()
+# https://scapy.readthedocs.io/en/latest/introduction.htmllearning-python,
